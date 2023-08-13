@@ -15,6 +15,7 @@ function getArray() {
     // document.getElementById("txt__demsoduong").innerHTML = demSoDuong(allArray);
 }
 console.log(getArray);
+
 //tinh tong
 function sum(array) {
     var all = 0;
@@ -191,7 +192,6 @@ function congthuc8() {
 
 
 function soAm() {
-
     var index = 0;
     var ar = getArray();
     for (let i = 0; i < ar.length; i++) {
@@ -200,7 +200,6 @@ function soAm() {
         }
     }
     return index;
-    
 }
 function soDuong() {
     var index = 0;
